@@ -25,6 +25,12 @@
 - แสดงผลการสุ่มด้วยแอนิเมชัน (Motion Design) เช่น Slot Animation, การหมุน, และ Confetti Effect
 - ออกแบบโดยอิงแนวคิด "Motion guides attention" ทำให้ผู้ชมตื่นเต้นและโฟกัสที่ชื่อผู้โชคดี 
 
+## การออกแบบ UX/UI (UI/UX Design)
+ระบบนี้ถูกออกแบบโดยยึดหลัก **Material Design 3 (M3)** เป็นแกนหลัก ทั้งในด้านของ UI Component กราฟิก และแอนิเมชัน โดยให้ความสำคัญกับประสบการณ์ผู้ใช้งาน (UX) ดังนี้:
+- **Design System First:** มีการใช้ตัวแปร CSS (CSS Variables / Tokens) ควบคุมโทนสี (ใช้ Dark Mode เป็นค่าเริ่มต้น), ขนาดฟอนต์ และระยะห่าง (Spacing) ทำให้ UI มีความสอดคล้องกันและให้ความรู้สึกพรีเมียม (Premium Design)
+- **Motion & Micro-interactions:** มีการนำแอนิเมชันและเอฟเฟกต์ต่างๆ มาใช้เพื่อนำสายตาและให้ Feedback กับผู้ใช้งาน (Motion guides attention) แทนการตกแต่งเพื่อความสวยงามเพียงอย่างเดียว เช่น แอนิเมชันสุ่มรายชื่อ, Winner Card, และเอฟเฟกต์พลุกระดาษ (Confetti) 
+- **Responsive & Accessible:** หน้าจอควบคุม (Admin และ Remote) ได้รับการออกแบบให้แสดงผลได้ดีบนหลากหลายอุปกรณ์ รวมถึงการออกแบบรองรับการโต้ตอบที่ชัดเจนและใช้งานง่าย
+
 ## เทคโนโลยีสแตค (Tech Stack)
 - **Frontend:** HTML5, CSS3 (Vanilla + CSS Variables), Javascript (ES6+)
 - **Backend:** PHP รองรับการทำงานแบบ Session และ RESTful-like API ผ่านโฟลเดอร์ `ajax/`
