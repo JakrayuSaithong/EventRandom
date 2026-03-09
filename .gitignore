@@ -1,0 +1,29 @@
+# System configuration
+config/db.php
+
+# Environment variables
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Logs
+logs/
+*.log
